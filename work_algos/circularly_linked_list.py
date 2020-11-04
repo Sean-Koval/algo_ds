@@ -8,11 +8,11 @@ class CircularList:
         self.head = None
         self.tail = None
         self.size = 0
-
+# add docs
     def clear(self):
         self.tail = None
         self.head = None
-
+# add docs
     def append(self, data):
         node = Node(data)
         if self.head:
@@ -74,7 +74,7 @@ for item in l.iter():
     counter += 1
     if counter > 1000:
         break
-
+# add docs
 print("Done iterating. Now we try to delete something that isn't there.")
 l.delete('socks')
 print('back to iterating')
