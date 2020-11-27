@@ -17,3 +17,25 @@ class HashTable:
             hv += mult * ord(ch)
             mult += 1
         return hv % self.size
+    
+    # function to add elements to the hashtable
+    def put(self, key, value):
+        item = HashTable(key, value)
+        h = self._hash(key)
+
+        while self.slots[h].key is key:
+            if self.slots[h] is key:
+                break
+            h = (h + 1) % self.size
+        if self.slots[h] is None:
+            self.count += 1
+        self.slots[h] = item
+    
+    # function to return values given a certain key
+    def get(self, key):
+        h = self._hash(key)
+        while self.slots[h] is None:
+            if self.slots[h].key is key:
+                return self.slots[h].value
+            h = (h + 1) % self.size
+        return None
