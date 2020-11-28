@@ -39,3 +39,20 @@ class HashTable:
                 return self.slots[h].value
             h = (h + 1) % self.size
         return None
+    
+    def __setitem__(self, key, value):
+        self.put(key, value)
+    
+    sef __getitem__(self, key, value):
+        return self.get(key)
+
+ht = HashTable()
+ht["good"] = "eggs"
+ht["better"] = "ham"
+ht["best"] = "spam"
+
+for key in ("good" "better", "best"):
+    v = ht()
+    print(v)
+    
+    
