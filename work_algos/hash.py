@@ -6,7 +6,7 @@ class HashItem:
 class HashTable:
     def __init__(self):
         self.size = 256
-        self.slots = [None for i range(self.size)]
+        self.slots = [None for i in range(self.size)]
         self.count = 0
 
     # hashing function using remainder to reduce collisions
@@ -43,7 +43,7 @@ class HashTable:
     def __setitem__(self, key, value):
         self.put(key, value)
     
-    sef __getitem__(self, key, value):
+    def __getitem__(self, key):
         return self.get(key)
 
 ht = HashTable()
@@ -52,7 +52,7 @@ ht["better"] = "ham"
 ht["best"] = "spam"
 
 for key in ("good" "better", "best"):
-    v = ht()
+    v = ht
     print(v)
     
     

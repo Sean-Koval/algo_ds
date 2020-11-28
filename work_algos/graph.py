@@ -9,7 +9,7 @@ graph['C']
 matrix_elements = sorted(graph.keys())
 cols, rows = len(matrix_elements)
 
-adjaceny_matrix = [[0 for x in range(rows)] for y in range(cols)]
+adjacency_matrix = [[0 for x in range(rows)] for y in range(cols)]
 
 edges_list = []
 
@@ -22,6 +22,6 @@ print(edges_list)
 for edge in edges_list:
     index_of_first_vertex = matrix_elements.index(edge[0])
     index_of_second_vertex = matrix_elements.index(edge[1])
-    adjacency_matrix[index_of_first_vertex[]index_of_second_vertex] = 1
+    adjacency_matrix[index_of_first_vertex][index_of_second_vertex] = 1
 
-print(adjaceny_matrix)
+print(adjacency_matrix)
