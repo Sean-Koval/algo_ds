@@ -1,3 +1,4 @@
+from collections import deque
 graph = dict()
 graph['A'] = ['A', 'G', 'D']
 graph['B'] = ['A', 'B', 'E']
