@@ -7,9 +7,9 @@
 ================================================
 
 The problems are broken up by the (common) pattern that can be used to solve them.
-
-
-
+#
+#
+#
 ---
 
 Here are some links that contained information regarding various types of common leetcode problems that I found useful
