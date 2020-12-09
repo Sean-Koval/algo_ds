@@ -6,8 +6,8 @@
 
 ================================================
 
-The problems are broken up by the (common) pattern that can be used to solve them.
----
+The problems are broken up by the (common) pattern that can be used to solve them.  The work is borken up into the raw creation of the data structures themselves (work algo) and the implementation of the various algos and data structures in (simple algo).
+
 ---
 
 Here are some links that contained information regarding various types of common leetcode problems that I found useful
