@@ -8,7 +8,7 @@
 
 The problems are broken up by the (common) pattern that can be used to solve them.
 
-
+---
 
 Here are some links that contained information regarding various types of common leetcode problems that I found useful
 
@@ -32,11 +32,13 @@ Sliding:
 
 https://leetcode.com/discuss/general-discussion/657507/sliding-window-for-beginners-problems-template-sample-solutions/562721
 
+---
 
 Bit manipulation:
 
 https://leetcode.com/problems/sum-of-two-integers/discuss/84278/A-summary%3A-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently
 
+---
 
 Trees:
 
