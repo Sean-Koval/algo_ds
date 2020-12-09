@@ -1,7 +1,9 @@
 # algo_ds
 
 #================================================
+
 THIS IS A GUIDE FOR SOLVING ALGO AND DS PROBLEMS:
+
 #================================================
 
 The problems are broken up by the (common) pattern that can be used to solve them.
