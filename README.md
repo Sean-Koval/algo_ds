@@ -1,4 +1,7 @@
 # algo_ds
+
+THIS IS A GUIDE FOR SOLVING ALGO AND DS PROBLEMS:
+
 algorithms and data structures work
 
 DP:
