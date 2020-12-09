@@ -1,6 +1,6 @@
 
 # Quick select algo 
-def quicj_select(array_list, left, right, k):
+def quick_select(array_list, left, right, k):
     split = partition(array_list, left, right)
 
     if split == k:
