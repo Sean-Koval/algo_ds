@@ -22,6 +22,7 @@ def solution(num1,num2):
 
 def solution(num1, num2):
     n1, n2 = 0,0
-    m1, m2 = 10**(len(num1)-1), 10**(len(num2)-1) 
+    m1, m2 = 10**(len(num1)-1), 10**(len(num2)-1)
+    return m1 + m2 
 
 
