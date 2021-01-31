@@ -1,4 +1,6 @@
 # Longest subarray with 'k' distinct charecters
+# Time: O(n) Length of the substring O(n+n)
+# Space: O(k) length of char freq + 1
 
 def max_subarray_with_k_distinct_char(k, str):
     # create variables
